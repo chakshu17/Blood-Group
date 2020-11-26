@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bloodGroupApp"
+    }
+  },
+  "defaultProject": "bloodGroupApp",
+  "cli": {
+    "analytics": "73146d0c-b412-45c1-a4f0-c1fcdacc6108"
+  }
 }
