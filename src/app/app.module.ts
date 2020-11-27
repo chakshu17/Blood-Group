@@ -11,6 +11,8 @@ import { environment } from '../environments/environment';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from './module/material/material.module';
 
+import { AgmCoreModule } from '@agm/core';
+
 import { SignUpComponent } from './components/auth/sign-up/sign-up.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -29,6 +31,9 @@ import { HomeComponent } from './components/home/home.component';
     AngularFireModule.initializeApp(environment.firebase),
     BrowserAnimationsModule,
     HttpClientModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDINf3vf3_L5WFRdJfqvhKuj_-znwdO0Pk',
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],
