@@ -15,8 +15,8 @@ export class HomeComponent implements OnInit {
     private http: HttpClient
   ) {}
 
-  latitude = 22.7196;
-  longitude = 75.8577;
+  // latitude = 22.7196;
+  // longitude = 75.8577;
 
   ngOnInit(): void {
     this.http
