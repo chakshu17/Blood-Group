@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bloodGroupApp';
-  latitude = 22.7196;
-  longitude = 75.8577;
+  // latitude = 22.7196;
+  // longitude = 75.8577;
 
   onChooseLocation(event){
     console.log(event);
