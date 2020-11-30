@@ -19,16 +19,16 @@ export class HomeComponent implements OnInit {
   // longitude = 75.8577;
 
   ngOnInit(): void {
-    // this.http
-    //   .get('https://blood-group-e3790.firebaseio.com/Users.json')
-    //   .subscribe(
-    //     (re) => {
-    //       console.log(re);
-    //     },
-    //     (err) => {
-    //       console.log(err);
-    //     }
-    //   );
+    this.http
+      .get('https://blood-group-e3790.firebaseio.com/Users.json')
+      .subscribe(
+        (re) => {
+          console.log(re);
+        },
+        (err) => {
+          console.log(err);
+        }
+      );
   }
   logout() {
     this.auth.signOut().then(() => {
