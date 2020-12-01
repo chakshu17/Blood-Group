@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.scss'],
 })
 export class LoginComponent implements OnInit {
-  constructor(private auth: AngularFireAuth,private router:Router) {}
+  constructor(private auth: AngularFireAuth, private router: Router) {}
 
   ngOnInit(): void {}
 
